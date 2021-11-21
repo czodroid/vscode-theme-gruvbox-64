@@ -1,0 +1,30 @@
+{
+    "name": "gruvbox-64",
+    "publisher": "czo64",
+    "version": "1.0.7",
+    "displayName": "Gruvbox 64 Theme",
+    "description": "Gruvbox 64 Theme",
+    "icon": "store/icon.png",
+    "author": "czo (https://github.com/czodroid)",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/czodroid/vscode-theme-gruvbox-64"
+    },
+    "homepage": "https://github.com/czodroid/vscode-theme-gruvbox-64",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gruvbox 64 Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/gruvbox-64-dark.json"
+            }
+        ]
+    }
+}

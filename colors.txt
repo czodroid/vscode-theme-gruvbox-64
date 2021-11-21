@@ -1,0 +1,49 @@
+Gruvbox 64 colors:
+
+" gruvbox dark
+" bg0-h     #1d2021
+" bg0       #282828
+" bg0-s     #32302f
+" bg1       #3c3836
+" bg2       #504945
+" bg3       #665c54
+" bg4       #7c6f64
+" gray      #928374
+" fg0       #fbf1c7
+" fg1       #ebdbb2
+" fg2       #d5c4a1
+" fg3       #bdae93
+" fg4       #a89984
+" red1      #cc241d
+" red2      #fb4934
+" green1    #98971a
+" green2    #b8bb26
+" yellow1   #d79921
+" yellow2   #fabd2f
+" blue1     #458588
+" blue2     #83a598
+" purple1   #b16286
+" purple2   #d3869b
+" aqua1     #689d6a
+" aqua2     #8ec07c
+" orange1   #d65d0e
+" orange2   #fe8019
+
+" NR-8 NAME             NR-16 NAME          Gruvbox64   Gruvbox
+"  0   Black            0     Black          #282828    #282828
+"  4   DarkBlue         1     DarkRed        #cc241d    #cc241d
+"  2   DarkGreen        2     DarkGreen      #98971a    #98971a
+"  6   DarkCyan         3     DarkYellow     #d79921    #d79921
+"  1   DarkRed          4     DarkBlue       #458588    #458588
+"  5   DarkMagenta      5     DarkMagenta    #b16286    #b16286
+"  3   DarkYellow       6     DarkCyan       #689d6a    #689d6a
+"  7   Gray             7     Gray           #c9b788    #a89984
+"  0*  DarkGray         8     DarkGray       #4a4239    #928374
+"  4*  Blue             9     Red            #fb4934    #fb4934
+"  2*  Green            10    Green          #b8bb26    #b8bb26
+"  6*  Cyan             11    Yellow         #fabd2f    #fabd2f
+"  1*  Red              12    Blue           #83a598    #83a598
+"  5*  Magenta          13    Magenta        #d3869b    #d3869b
+"  3*  Yellow           14    Cyan           #8ec07c    #8ec07c
+"  7*  White            15    White          #fbf1c7    #ebdbb2
+
