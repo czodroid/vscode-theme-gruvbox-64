@@ -943,7 +943,7 @@
     // BASE COLORS
     "focusBorder": "#3c3836",
     "foreground": "#ebdbb2",
-    "widget.shadow": "#28282830",
+    "widget.shadow": "#1d2021",
     "selection.background": "#689d6a80",
     "errorForeground": "#fb4934",
     // BUTTON
@@ -977,16 +977,16 @@
     // PROGRESS BAR
     "progressBar.background": "#689d6a",
     // LISTS AND TREES
-    "list.activeSelectionBackground": "#3c383680",
-    "list.activeSelectionForeground": "#8ec07c",
-    "list.hoverBackground": "#3c383680",
+    "list.activeSelectionBackground": "#689d6a80",
+    "list.activeSelectionForeground": "#ebdbb2",
+    "list.hoverBackground": "#689d6a80",
     "list.hoverForeground": "#d5c4a1",
-    "list.focusBackground": "#3c3836",
+    "list.focusBackground": "#689d6a",
     "list.focusForeground": "#ebdbb2",
-    "list.inactiveSelectionForeground": "#689d6a",
-    "list.inactiveSelectionBackground": "#3c383680",
-    "list.dropBackground": "#3c3836",
-    "list.highlightForeground": "#689d6a",
+    "list.inactiveSelectionForeground": "#ebdbb2",
+    "list.inactiveSelectionBackground": "#689d6a80",
+    "list.dropBackground": "#689d6a",
+    "list.highlightForeground": "#ebdbb2",
     // SIDE BAR
     "sideBar.background": "#282828",
     "sideBar.foreground": "#d5c4a1",

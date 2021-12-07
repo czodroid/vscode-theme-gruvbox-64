@@ -52,11 +52,11 @@ ext install czo64.gruvbox-64
 ## Variants
 
 -   Dark - Medium Contrast
--   Dark - Hard Contrast
--   Dark - Soft Contrast
--   Light - Medium Contrast
--   Light - Hard Contrast
--   Light - Soft Contrast
+> -   Dark - Hard Contrast
+> -   Dark - Soft Contrast
+> -   Light - Medium Contrast
+> -   Light - Hard Contrast
+> -   Light - Soft Contrast
 
 ## Screenshots
 
