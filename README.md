@@ -1,3 +1,13 @@
+<!--
+Filename: README.md
+Author: Olivier Sirol <czo@free.fr>
+License: GPL-2.0 (http://www.gnu.org/copyleft)
+File Created: nov. 2021
+Last Modified: mardi 07 décembre 2021, 19:27
+Edit Time: 0:01:41
+$Id:$
+-->
+
 <h1 align="center">
   <br>
   <a href="https://marketplace.visualstudio.com/items?itemName=czo64.gruvbox-64">
@@ -52,11 +62,7 @@ ext install czo64.gruvbox-64
 ## Variants
 
 -   Dark - Medium Contrast
-> -   Dark - Hard Contrast
-> -   Dark - Soft Contrast
-> -   Light - Medium Contrast
-> -   Light - Hard Contrast
-> -   Light - Soft Contrast
+
 
 ## Screenshots
 
@@ -72,9 +78,6 @@ Please, report issues/bugs and suggestions for improvements to the issue [here](
 -   VSCode's `Developer: Inspect TM Scopes` command is useful to find out the scope
 -   `colors.txt` contains available colors
 
-## Release Notes
-
-See [changelog](CHANGELOG.md).
 
 ## Credits
 
