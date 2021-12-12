@@ -1,8 +1,8 @@
 // Filename: gruvbox-64-dark.json
 // Author: Olivier Sirol <czo@free.fr>
 // File Created: oct. 2021
-// Last Modified: dimanche 12 décembre 2021, 16:46
-// Edit Time: 0:59:58
+// Last Modified: dimanche 12 décembre 2021, 17:34
+// Edit Time: 1:00:05
 // Description:
 //         Copyright (C) 2017 JD in MIT License
 //         https://code.visualstudio.com/api/references/theme-color
@@ -1168,5 +1168,4 @@
     "textLink.activeForeground": "#458588",
     "debugToolBar.background": "#282828"
   }
-
 }

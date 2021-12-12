@@ -1,7 +1,7 @@
 {
     "name": "gruvbox-64",
     "publisher": "czo64",
-    "version": "1.0.15",
+    "version": "1.0.16",
     "displayName": "Gruvbox 64 Theme",
     "description": "Gruvbox 64 Theme",
     "icon": "store/icon.png",
@@ -24,11 +24,6 @@
                 "label": "Gruvbox 64 Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/gruvbox-64-dark.json"
-            },
-            {
-                "label": "Gruvbox 64 Light",
-                "uiTheme": "vs",
-                "path": "./themes/gruvbox-64-light.json"
             }
         ]
     }
