@@ -1,7 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/tank/data/czo/Bureau/vscode-theme-gruvbox-64/code'
-gcc  -c -o a.o a.c -Wall -Wextra -Wpedantic
-gcc  -o go a.o 
-echo "<- all done!"
-make: Leaving directory '/tank/data/czo/Bureau/vscode-theme-gruvbox-64/code'
- 
