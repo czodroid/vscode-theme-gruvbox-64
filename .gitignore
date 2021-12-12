@@ -1,4 +1,5 @@
 .DS_Store
 .vstags
 *.vsix
+code/.vscode/
 

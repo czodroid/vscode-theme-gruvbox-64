@@ -1,5 +1,18 @@
+// Filename: gruvbox-64-light.json
+// Author: Olivier Sirol <czo@free.fr>
+// File Created: oct. 2021
+// Last Modified: dimanche 12 décembre 2021, 17:05
+// Edit Time: 1:09:18
+// Description:
+//         Copyright (C) 2017 JD in MIT License
+//         https://code.visualstudio.com/api/references/theme-color
+// $Id:$
+
 {
-  "name": "Gruvbox Light Medium",
+  "name": "Gruvbox 64 Light",
+  "type": "light",
+  "$schema": "vscode://schemas/color-theme",
+
   "tokenColors": [
     {
       "settings": {
@@ -460,6 +473,15 @@
         "foreground": "#427b58"
       }
     },
+    // perl ---------------------------------------
+    {
+      "scope": [
+        "source.perl support.function.perl"
+      ],
+      "settings": {
+        "foreground": "#af3a03"
+      }
+    },
     // C C++ ----------------------------------------
     {
       "scope": "keyword.control.directive",
@@ -768,7 +790,7 @@
         "text.html punctuation.tag"
       ],
       "settings": {
-        "foreground": "#427b58"
+        "foreground": "##af3a03"
       }
     },
     // javascript ---------------------------------------
@@ -1095,6 +1117,10 @@
     "statusBar.prominentBackground": "#689d6a",
     "statusBar.prominentHoverBackground": "#689d6a70",
     // INTEGRATED TERMINAL
+    "terminal.background": "#fbf1c7",
+    "terminal.foreground": "#3c3836",
+    "terminalCursor.foreground": "#98971a",
+    "terminal.selectionBackground": "#458588",
     "terminal.ansiBlack": "#ebdbb2",
     "terminal.ansiBrightBlack": "#928374",
     "terminal.ansiRed": "#cc241d",
@@ -1111,8 +1137,6 @@
     "terminal.ansiBrightCyan": "#427b58",
     "terminal.ansiWhite": "#7c6f64",
     "terminal.ansiBrightWhite": "#3c3836",
-    "terminal.foreground": "#3c3836",
-    "terminal.background": "#fbf1c7",
     // TITLE BAR macOS (not tested)
     "titleBar.activeBackground": "#fbf1c7",
     "titleBar.activeForeground": "#3c3836",
