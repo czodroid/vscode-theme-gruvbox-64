@@ -1,8 +1,8 @@
 // Filename: gruvbox-64-dark.json
 // Author: Olivier Sirol <czo@free.fr>
 // File Created: oct. 2021
-// Last Modified: dimanche 12 décembre 2021, 12:10
-// Edit Time: 0:54:47
+// Last Modified: dimanche 12 décembre 2021, 16:46
+// Edit Time: 0:59:58
 // Description:
 //         Copyright (C) 2017 JD in MIT License
 //         https://code.visualstudio.com/api/references/theme-color
@@ -390,7 +390,7 @@
         "*uri*"
       ],
       "settings": {
-        "fontStyle": ""
+        "fontStyle": "normal"
       }
     },
     // ----------------------------------------
@@ -624,21 +624,18 @@
     {
       "scope": "markup.bold",
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#fe8019"
       }
     },
     {
       "scope": "markup.heading",
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#fe8019"
       }
     },
     {
       "scope": "markup.italic",
       "settings": {
-        "fontStyle": "italic"
       }
     },
     {
