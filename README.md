@@ -62,6 +62,7 @@ ext install czo64.gruvbox-64
 ## Variants
 
 -   Dark - Medium Contrast
+-   Light - Medium Contrast
 
 
 ## Screenshots
