@@ -1064,14 +1064,14 @@
     "editorOverviewRuler.addedForeground": "#83a598",
     "editorOverviewRuler.deletedForeground": "#83a598",
     "editorOverviewRuler.errorForeground": "#fb4934",
-    "editorOverviewRuler.warningForeground": "#fe8019",
+    "editorOverviewRuler.warningForeground": "#d79921",
     "editorOverviewRuler.infoForeground": "#d3869b",
     "editorGutter.background": "#28282800",
     "editorGutter.modifiedBackground": "#83a598",
     "editorGutter.addedBackground": "#b8bb26",
     "editorGutter.deletedBackground": "#fb4934",
     "editorError.foreground": "#cc241d",
-    "editorWarning.foreground": "#fe8019",
+    "editorWarning.foreground": "#d79921",
     "editorInfo.foreground": "#458588",
     // DIFF EDITOR
     "diffEditor.insertedTextBackground": "#b8bb2630",
@@ -1146,9 +1146,9 @@
     "titleBar.activeForeground": "#ebdbb2",
     "titleBar.inactiveBackground": "#282828",
     // GIT COLORS
-    "gitDecoration.modifiedResourceForeground": "#98971a",
+    "gitDecoration.modifiedResourceForeground": "#d79921",
     "gitDecoration.deletedResourceForeground": "#cc241d",
-    "gitDecoration.untrackedResourceForeground": "#d79921",
+    "gitDecoration.untrackedResourceForeground": "#98971a",
     "gitDecoration.ignoredResourceForeground": "#7c6f64",
     "gitDecoration.conflictingResourceForeground": "#b16286",
     // NOTIFICATION
