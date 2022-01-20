@@ -15,12 +15,6 @@
 
   "tokenColors": [
     {
-      "settings": {
-        "background": "#282828",
-        "foreground": "#ebdbb2"
-      }
-    },
-    {
       "scope": "emphasis",
       "settings": {
       }
@@ -1006,13 +1000,11 @@
     "sideBarSectionHeader.foreground": "#ebdbb2",
     // ACTIVITY BAR
     "activityBar.background": "#282828",
-    "activityBar.dropBackground": "#282828",
     "activityBar.foreground": "#ebdbb2",
     "activityBar.border": "#3c3836",
     "activityBarBadge.background": "#458588",
     "activityBarBadge.foreground": "#ebdbb2",
     // EDITOR GROUPS
-    "editorGroup.background": "#3c3836",
     "editorGroup.border": "#3c3836",
     "editorGroup.dropBackground": "#3c383660",
     "editorGroupHeader.noTabsBackground": "#3c3836",
@@ -1113,10 +1105,8 @@
     "statusBar.debuggingBackground": "#fe8019",
     "statusBar.debuggingForeground": "#282828",
     "statusBar.debuggingBorder": "#28282800",
-    "statusBar.noFolderBackground": "#282828",
+    "statusBar.noFolderBackground": "#4a4239",
     "statusBar.noFolderBorder": "#28282800",
-    "statusBar.prominentBackground": "#689d6a",
-    "statusBar.prominentHoverBackground": "#689d6a70",
     // INTEGRATED TERMINAL
     "terminal.background": "#282828",
     "terminal.foreground": "#c9b788",
@@ -1148,18 +1138,6 @@
     "gitDecoration.untrackedResourceForeground": "#98971a",
     "gitDecoration.ignoredResourceForeground": "#7c6f64",
     "gitDecoration.conflictingResourceForeground": "#b16286",
-    // NOTIFICATION
-    "notification.background": "#282828",
-    "notification.foreground": "#ebdbb2",
-    "notification.buttonBackground": "#665c54",
-    "notification.buttonHoverBackground": "#665c5450",
-    "notification.buttonForeground": "#ebdbb2",
-    "notification.infoBackground": "#83a598",
-    "notification.infoForeground": "#282828",
-    "notification.warningBackground": "#fabd2f",
-    "notification.warningForeground": "#282828",
-    "notification.errorBackground": "#fb4934",
-    "notification.errorForeground": "#282828",
     // EXTENSIONS
     "extensionButton.prominentBackground": "#b8bb2680",
     "extensionButton.prominentHoverBackground": "#b8bb2630",
