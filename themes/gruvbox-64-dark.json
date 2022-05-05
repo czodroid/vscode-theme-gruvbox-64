@@ -1,8 +1,8 @@
 // Filename: gruvbox-64-dark.json
 // Author: Olivier Sirol <czo@free.fr>
 // File Created: oct. 2021
-// Last Modified: dimanche 12 décembre 2021, 17:34
-// Edit Time: 1:00:05
+// Last Modified: jeudi 05 mai 2022, 12:23
+// Edit Time: 1:01:26
 // Description:
 //         Copyright (C) 2017 JD in MIT License
 //         https://code.visualstudio.com/api/references/theme-color
@@ -214,7 +214,7 @@
     {
       "scope": "keyword.control.less",
       "settings": {
-        "foreground": "#d79921"
+        "foreground": "#fe8019"
       }
     },
     {
@@ -384,7 +384,7 @@
         "*uri*"
       ],
       "settings": {
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     },
     // ----------------------------------------
@@ -766,7 +766,7 @@
         "entity.name.tag.css"
       ],
       "settings": {
-        "fontStyle": "normal"
+        "fontStyle": ""
       }
     },
     // HTML / XML ----------------------------------------
@@ -968,7 +968,7 @@
     "inputValidation.infoBorder": "#83a598",
     "inputValidation.infoBackground": "#45858880",
     "inputValidation.warningBorder": "#fabd2f",
-    "inputValidation.warningBackground": "#d7992180",
+    "inputValidation.warningBackground": "#fe801980",
     "inputOption.activeBorder": "#ebdbb260",
     // SCROLL BAR
     "scrollbar.shadow": "#282828",
@@ -1053,14 +1053,14 @@
     "editorOverviewRuler.addedForeground": "#83a598",
     "editorOverviewRuler.deletedForeground": "#83a598",
     "editorOverviewRuler.errorForeground": "#fb4934",
-    "editorOverviewRuler.warningForeground": "#d79921",
+    "editorOverviewRuler.warningForeground": "#fe8019",
     "editorOverviewRuler.infoForeground": "#d3869b",
     "editorGutter.background": "#28282800",
     "editorGutter.modifiedBackground": "#83a598",
     "editorGutter.addedBackground": "#b8bb26",
     "editorGutter.deletedBackground": "#fb4934",
     "editorError.foreground": "#cc241d",
-    "editorWarning.foreground": "#d79921",
+    "editorWarning.foreground": "#fe8019",
     "editorInfo.foreground": "#458588",
     // DIFF EDITOR
     "diffEditor.insertedTextBackground": "#b8bb2630",
@@ -1108,6 +1108,7 @@
     "statusBar.noFolderBackground": "#4a4239",
     "statusBar.noFolderBorder": "#28282800",
     // INTEGRATED TERMINAL
+    //"terminal.integrated.minimumContrastRatio": 1, in settings.json
     "terminal.background": "#282828",
     "terminal.foreground": "#c9b788",
     "terminalCursor.foreground": "#98971a",
@@ -1118,7 +1119,7 @@
     "terminal.ansiBrightRed": "#fb4934",
     "terminal.ansiGreen": "#98971a",
     "terminal.ansiBrightGreen": "#b8bb26",
-    "terminal.ansiYellow": "#d79921",
+    "terminal.ansiYellow": "#fe8019",
     "terminal.ansiBrightYellow": "#fabd2f",
     "terminal.ansiBlue": "#458588",
     "terminal.ansiBrightBlue": "#83a598",
@@ -1133,7 +1134,7 @@
     "titleBar.activeForeground": "#ebdbb2",
     "titleBar.inactiveBackground": "#282828",
     // GIT COLORS
-    "gitDecoration.modifiedResourceForeground": "#d79921",
+    "gitDecoration.modifiedResourceForeground": "#fe8019",
     "gitDecoration.deletedResourceForeground": "#cc241d",
     "gitDecoration.untrackedResourceForeground": "#98971a",
     "gitDecoration.ignoredResourceForeground": "#7c6f64",

@@ -1,17 +1,19 @@
-#! /usr/bin/perl -w
+#! /usr/bin/env perl
 #
 # Filename: a.pl
 # Author: Olivier Sirol <czo@free.fr>
 # License: GPL-2.0 (http://www.gnu.org/copyleft)
-# File Created: nov. 2021
-# Last Modified: dimanche 21 novembre 2021, 15:41
-# Edit Time: 0:00:29
+# File Created: mai 2022
+# Last Modified: jeudi 05 mai 2022, 11:59
+# Edit Time: 0:00:44
 # Description:
 #
 # $Id:$
 
-open( CMD, "zpool status |" );
-foreach (<CMD>) {
+#use strict;
+#use warnings;
+
+foreach (qx(zpool status)) {
     if (m,^\s*pool:\s+(.*),) { $pool = $1; }
     if (m,^\s*scan:\s+(.*),) { $scan = $1; $ok = 1; }
     if ($ok) {
@@ -23,7 +25,19 @@ foreach (<CMD>) {
         }
     }
 }
-close(CMD);
+
+foreach (qx(zpool status)) {
+    if (m,^\s*pool:\s+(.*),) { $pool = $1; }
+    if (m,^\s*scan:\s+(.*),) { $scan = $1; $ok = 1; }
+    if ($ok) {
+        $ok = 0;
+        if ( $scan =~ 'scrub in progress|resilver' ) {
+            $poollist{$pool} = 90;
+        } else {
+            $poollist{$pool} = 10;
+        }
+    }
+}
 
 if ( $ARGV[0] and $ARGV[0] eq "config" ) {
     print <<EOT;

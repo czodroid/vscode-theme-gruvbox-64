@@ -28,8 +28,7 @@ A [gruvbox](https://github.com/morhetz/gruvbox) 64 theme including syntax highli
 ## Gruvbox 64
 
 My gruvbox-64 is a modified gruvbox theme.
-It's a 16 colors palette whith light white (#ebdbb2 -> #fbf1c7) and dark white (#a89984 -> #c9b788) modified
-and light black (which is gray in gruvbox) near brown (#928374 -> #4a4239):
+It's a 16 colors palette with a modified light white (#ebdbb2 -> #fbf1c7), dark white (#a89984 -> #c9b788), light black (which is gray in gruvbox) near brown (#928374 -> #4a4239), and the yellow is orange (#d79921 -> #fe8019)
 
 ![16colors](store/16colors.png)
 
@@ -64,6 +63,10 @@ ext install czo64.gruvbox-64
 -   Dark - Medium Contrast
 
 ## Screenshots
+
+On March 2022 the default value for the integrated terminal "minimum contrast ratio" was updated from 1 (no effect) to 4.5 (minimal effect). To disable this feature, override the default in your own settings.json file:
+
+  "terminal.integrated.minimumContrastRatio": 1
 
 ![screenshots](store/screenshots.jpg)
 
