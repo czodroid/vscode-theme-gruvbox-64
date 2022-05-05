@@ -3,11 +3,10 @@ Filename: README.md
 Author: Olivier Sirol <czo@free.fr>
 License: GPL-2.0 (http://www.gnu.org/copyleft)
 File Created: nov. 2021
-Last Modified: jeudi 05 mai 2022, 12:37
-Edit Time: 0:01:49
+Last Modified: jeudi 05 mai 2022, 12:54
+Edit Time: 0:42:01
 $Id:$
 -->
-
 
 <h1 align="center">
   <br>
@@ -29,7 +28,20 @@ A [gruvbox](https://github.com/morhetz/gruvbox) 64 theme including syntax highli
 ## Gruvbox 64
 
 My gruvbox-64 is a modified gruvbox theme.
-It's a 16 colors palette with a modified light white (#ebdbb2 -> #fbf1c7), dark white (#a89984 -> #c9b788), light black (which is gray in gruvbox) near brown (#928374 -> #4a4239), and the yellow is orange (#d79921 -> #fe8019)
+It's a 16 colors palette with a modified light white (
+<span style="color:black; background-color:#ebdbb2">#ebdbb2</span> ->
+<span style="color:black; background-color:#fbf1c7">#fbf1c7</span>
+), dark white (
+<span style="color:black; background-color:#a89984">#a89984</span> -> 
+<span style="color:black; background-color:#c9b788">#c9b788</span>
+), light black - which is gray in gruvbox - near brown (
+<span style="color:black; background-color:#928374">#928374</span> -> 
+<span style="color:white; background-color:#4a4239">#4a4239</span>
+), and the yellow is orange (
+<span style="color:black; background-color:#d79921">#d79921</span> -> 
+<span style="color:black; background-color:#fe8019">#fe8019</span>
+)
+
 
 ![16colors](store/16colors.png)
 
