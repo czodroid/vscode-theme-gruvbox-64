@@ -2,4 +2,5 @@
 .vstags
 *.vsix
 code/.vscode/
+node_modules/
 

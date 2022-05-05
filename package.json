@@ -26,5 +26,8 @@
                 "path": "./themes/gruvbox-64-dark.json"
             }
         ]
+    },
+    "dependencies": {
+        "vsce": "^2.7.0"
     }
 }
