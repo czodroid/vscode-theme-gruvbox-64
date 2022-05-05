@@ -28,8 +28,7 @@ A [gruvbox](https://github.com/morhetz/gruvbox) 64 theme including syntax highli
 ## Gruvbox 64
 
 My gruvbox-64 is a modified gruvbox theme.
-It's a 16 colors palette with a modified light white (
-<span style="color:black; background-color:#ebdbb2">#ebdbb2</span> ->
+It's a 16 colors palette with a modified light white ( <span style="color:black; background-color:#ebdbb2">#ebdbb2</span> ->
 <span style="color:black; background-color:#fbf1c7">#fbf1c7</span>
 ), dark white (
 <span style="color:black; background-color:#a89984">#a89984</span> -> 
@@ -79,7 +78,7 @@ ext install czo64.gruvbox-64
 
 On March 2022 the default value for the integrated terminal "minimum contrast ratio" was updated from 1 (no effect) to 4.5 (minimal effect). To disable this feature, override the default in your own settings.json file:
 
-  "terminal.integrated.minimumContrastRatio": 1
+    "terminal.integrated.minimumContrastRatio": 1
 
 ![screenshots](store/screenshots.jpg)
 
