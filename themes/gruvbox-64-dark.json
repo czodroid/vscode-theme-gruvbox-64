@@ -1,8 +1,8 @@
 // Filename: gruvbox-64-dark.json
 // Author: Olivier Sirol <czo@free.fr>
 // File Created: oct. 2021
-// Last Modified: jeudi 05 mai 2022, 12:23
-// Edit Time: 1:01:26
+// Last Modified: Friday 20 May 2022, 18:34
+// Edit Time: 1:02:01
 // Description:
 //         Copyright (C) 2017 JD in MIT License
 //         https://code.visualstudio.com/api/references/theme-color
@@ -1107,6 +1107,13 @@
     "statusBar.debuggingBorder": "#28282800",
     "statusBar.noFolderBackground": "#4a4239",
     "statusBar.noFolderBorder": "#28282800",
+    // BRACKET PAIR COLORIZATION
+    "editorBracketHighlight.foreground1": "#fbf1c7",
+    "editorBracketHighlight.foreground2": "#b8bb26",
+    "editorBracketHighlight.foreground3": "#83a598",
+    "editorBracketHighlight.foreground4": "#fabd2f",
+    "editorBracketHighlight.foreground5": "#8ec07c",
+    "editorBracketHighlight.foreground6": "#fe8019",
     // INTEGRATED TERMINAL
     //"terminal.integrated.minimumContrastRatio": 1, in settings.json
     "terminal.background": "#282828",

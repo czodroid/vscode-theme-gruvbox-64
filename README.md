@@ -3,8 +3,8 @@ Filename: README.md
 Author: Olivier Sirol <czo@free.fr>
 License: GPL-2.0 (http://www.gnu.org/copyleft)
 File Created: nov. 2021
-Last Modified: jeudi 05 mai 2022, 12:54
-Edit Time: 0:42:01
+Last Modified: Friday 20 May 2022, 18:42
+Edit Time: 0:44:56
 $Id:$
 -->
 
@@ -46,6 +46,8 @@ It's a 16 colors palette with a modified light white (
 I did use vscode-theme-gruvbox as start, which is Copyright (C) 2017 [JD](https://github.com/jdinhify)
 
 - This theme has no bold and no italic.
+
+- Bracket pair with gruvbox64 colors
 
 - The $ in shell is the same color as the variable.
 
