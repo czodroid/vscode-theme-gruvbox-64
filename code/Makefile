@@ -1,9 +1,10 @@
 # Filename: Makefile
 # Author: Olivier Sirol <czo@free.fr>
 # License: GPL-2.0 (http://www.gnu.org/copyleft)
-# File Created: nov. 2021
-# Last Modified: dimanche 21 novembre 2021, 15:41
-# Edit Time: 0:00:04
+# File Created: 23 October 2022
+# Last Modified: Sunday 23 October 2022, 12:21
+# $Id:$
+# Edit Time: 0:00:12
 # Description:
 #      Makefile:
 #      $@ Le nom de la cible
@@ -12,9 +13,9 @@
 #      $? La liste des dépendances plus récentes que la cible
 #      $* Le nom du fichier sans suffixe
 #
-# $Id:$
+# Copyright: (C) 2022 Olivier Sirol <czo@free.fr>
 
-CC = gcc 
+CC = gcc
 CFLAGS = -Wall -Wextra -Wpedantic
 #CFLAGS += -I ..
 #LIBS += -lX11 -lXext -lhistory  -lreadline

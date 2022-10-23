@@ -3,28 +3,16 @@
 # Filename: a.pl
 # Author: Olivier Sirol <czo@free.fr>
 # License: GPL-2.0 (http://www.gnu.org/copyleft)
-# File Created: mai 2022
-# Last Modified: jeudi 05 mai 2022, 11:59
-# Edit Time: 0:00:44
+# File Created: 23 October 2022
+# Last Modified: Sunday 23 October 2022, 12:21
+# $Id:$
+# Edit Time: 0:00:12
 # Description:
 #
-# $Id:$
+# Copyright: (C) 2022 Olivier Sirol <czo@free.fr>
 
 #use strict;
 #use warnings;
-
-foreach (qx(zpool status)) {
-    if (m,^\s*pool:\s+(.*),) { $pool = $1; }
-    if (m,^\s*scan:\s+(.*),) { $scan = $1; $ok = 1; }
-    if ($ok) {
-        $ok = 0;
-        if ( $scan =~ 'scrub in progress|resilver' ) {
-            $poollist{$pool} = 90;
-        } else {
-            $poollist{$pool} = 10;
-        }
-    }
-}
 
 foreach (qx(zpool status)) {
     if (m,^\s*pool:\s+(.*),) { $pool = $1; }

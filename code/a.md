@@ -2,10 +2,13 @@
 Filename: a.md
 Author: Olivier Sirol <czo@free.fr>
 License: GPL-2.0 (http://www.gnu.org/copyleft)
-File Created: mai 2022
-Last Modified: jeudi 05 mai 2022, 12:00
-Edit Time: 0:00:15
+File Created: 23 October 2022
+Last Modified: Sunday 23 October 2022, 12:21
 $Id:$
+Edit Time: 0:00:12
+Description:
+
+Copyright: (C) 2022 Olivier Sirol <czo@free.fr>
 -->
 
 # Markdown Cheatsheet

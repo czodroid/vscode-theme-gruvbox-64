@@ -1,0 +1,17 @@
+# Filename: a.crontab
+# Author: Olivier Sirol <czo@free.fr>
+# File Created: 23 October 2022
+# Last Modified: Sunday 23 October 2022, 12:22
+# vim: set filetype=crontab:
+# Description: crontab .crontab.user@hostname
+
+#
+# minute (0-59)
+# |   hour (0-23)
+# |   |    day of the month (1-31)
+# |   |    |   month of the year (1-12)
+# |   |    |   |   day of the week (0-6 with 0=Sun)
+# |   |    |   |   |    commands
+# |   |    |   |   |    |
+1     1    15  *   *    SUJ="Crontab reminder for `id -un`@`hostname`" ; ( echo $SUJ ; date ; uname -a ; crontab -l ) | mail -s "$SUJ" root > /dev/null
+
