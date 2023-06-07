@@ -5,11 +5,11 @@ Filename: gruvbox64.html
 Author: Olivier Sirol <czo@free.fr>
 License: GPL-2.0 (http://www.gnu.org/copyleft)
 File Created: 08 October 2022
-Last Modified: Friday 14 October 2022, 09:55
-Edit Time: 0:57:10
+Last Modified: Wednesday 07 June 2023, 22:13
+Edit Time: 2:15:54
 Description:
 
-Copyright: (C) 2022 Olivier Sirol <czo@free.fr>
+Copyright: (C) 2022, 2023 Olivier Sirol <czo@free.fr>
 -->
 
 <html lang="en">
@@ -20,7 +20,7 @@ Copyright: (C) 2022 Olivier Sirol <czo@free.fr>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#007bff">
+  <meta name="theme-color" content="#4a4239">
 
   <meta name="Author" content="Olivier Sirol <czo@free.fr>" />
   <meta name="Generator" content="Vim">
@@ -33,7 +33,7 @@ Copyright: (C) 2022 Olivier Sirol <czo@free.fr>
 </head>
 
 <body>
-<div>
+
   <style>
     .container {
       display: flex;
@@ -54,44 +54,96 @@ Copyright: (C) 2022 Olivier Sirol <czo@free.fr>
       align-self: flex-end;
       font-size: 12px;
     }
-    #color0  { background-color: #282828; color: #fbf1c7; }
-    #color1  { background-color: #cc241d; color: #fbf1c7; }
-    #color2  { background-color: #98971a; }
-    #color3  { background-color: #fe8019; }
-    #color4  { background-color: #458588; color: #fbf1c7; }
-    #color5  { background-color: #b16286; }
-    #color6  { background-color: #689d6a; }
-    #color7  { background-color: #c9b788; }
-    #color8  { background-color: #4a4239; color: #fbf1c7; }
-    #color9  { background-color: #fb4934; }
-    #color10 { background-color: #b8bb26; }
-    #color11 { background-color: #fabd2f; }
-    #color12 { background-color: #83a598; }
-    #color13 { background-color: #d3869b; }
-    #color14 { background-color: #8ec07c; }
-    #color15 { background-color: #fbf1c7; }
+
+    #dark0  { background-color: #282828; color: #fbf1c7; }
+    #dark1  { background-color: #cc241d; color: #fbf1c7; }
+    #dark2  { background-color: #98971a; }
+    #dark3  { background-color: #fe8019; }
+    #dark4  { background-color: #458588; }
+    #dark5  { background-color: #b16286; }
+    #dark6  { background-color: #689d6a; }
+    #dark7  { background-color: #c9b788; }
+    #dark8  { background-color: #4a4239; color: #fbf1c7; }
+    #dark9  { background-color: #fb4934; }
+    #dark10 { background-color: #b8bb26; }
+    #dark11 { background-color: #fabd2f; }
+    #dark12 { background-color: #83a598; }
+    #dark13 { background-color: #d3869b; }
+    #dark14 { background-color: #8ec07c; }
+    #dark15 { background-color: #fbf1c7; }
+
+    /* #light3  { background-color: #d79921; }
+    #light7  { background-color: #7c6f64; }
+    #light8  { background-color: #928374; }
+    #light15 { background-color: #3c3836; } */
+
+    #light0  { background-color: #fbf1c7; }
+    #light1  { background-color: #cc241d; color: #fbf1c7; }
+    #light2  { background-color: #98971a; }
+    #light3  { background-color: #fe8019; }
+    #light4  { background-color: #458588; }
+    #light5  { background-color: #b16286; }
+    #light6  { background-color: #689d6a; }
+    #light7  { background-color: #4a4239; color: #fbf1c7; }
+    #light8  { background-color: #c9b788; }
+    #light9  { background-color: #9d0006; color: #fbf1c7; }
+    #light10 { background-color: #79740e; color: #fbf1c7; }
+    #light11 { background-color: #b57614; color: #fbf1c7; }
+    #light12 { background-color: #076678; color: #fbf1c7; }
+    #light13 { background-color: #8f3f71; color: #fbf1c7; }
+    #light14 { background-color: #427b58; color: #fbf1c7; }
+    #light15 { background-color: #282828; color: #fbf1c7; }
+
   </style>
-    <div class="container">
-    <div class="box" id="color0"><div>0<p>#282828</p></div></div>
-    <div class="box" id="color1"><div>1<p>#cc241d</p></div></div>
-    <div class="box" id="color2"><div>2<p>#98971a</p></div></div>
-    <div class="box" id="color3"><div>3<p>#fe8019</p></div></div>
-    <div class="box" id="color4"><div>4<p>#458588</p></div></div>
-    <div class="box" id="color5"><div>5<p>#b16286</p></div></div>
-    <div class="box" id="color6"><div>6<p>#689d6a</p></div></div>
-    <div class="box" id="color7"><div>7<p>#c9b788</p></div></div>
+
+<p>Dark palette:</p>
+<div>
+  <div class="container">
+    <div class="box" id="dark0" ><div >0<p>#282828</p></div></div>
+    <div class="box" id="dark1" ><div >1<p>#cc241d</p></div></div>
+    <div class="box" id="dark2" ><div >2<p>#98971a</p></div></div>
+    <div class="box" id="dark3" ><div >3<p>#fe8019</p></div></div>
+    <div class="box" id="dark4" ><div >4<p>#458588</p></div></div>
+    <div class="box" id="dark5" ><div >5<p>#b16286</p></div></div>
+    <div class="box" id="dark6" ><div >6<p>#689d6a</p></div></div>
+    <div class="box" id="dark7" ><div >7<p>#c9b788</p></div></div>
   </div>
   <div class="container">
-    <div class="box" id="color8" ><div >8<p>#4a4239</p></div></div>
-    <div class="box" id="color9" ><div >9<p>#fb4934</p></div></div>
-    <div class="box" id="color10"><div>10<p>#b8bb26</p></div></div>
-    <div class="box" id="color11"><div>11<p>#fabd2f</p></div></div>
-    <div class="box" id="color12"><div>12<p>#83a598</p></div></div>
-    <div class="box" id="color13"><div>13<p>#d3869b</p></div></div>
-    <div class="box" id="color14"><div>14<p>#8ec07c</p></div></div>
-    <div class="box" id="color15"><div>15<p>#fbf1c7</p></div></div>
+    <div class="box" id="dark8" ><div >8<p>#4a4239</p></div></div>
+    <div class="box" id="dark9" ><div >9<p>#fb4934</p></div></div>
+    <div class="box" id="dark10"><div>10<p>#b8bb26</p></div></div>
+    <div class="box" id="dark11"><div>11<p>#fabd2f</p></div></div>
+    <div class="box" id="dark12"><div>12<p>#83a598</p></div></div>
+    <div class="box" id="dark13"><div>13<p>#d3869b</p></div></div>
+    <div class="box" id="dark14"><div>14<p>#8ec07c</p></div></div>
+    <div class="box" id="dark15"><div>15<p>#fbf1c7</p></div></div>
   </div>
 </div>
+
+<p>Light palette:</p>
+<div>
+  <div class="container">
+    <div class="box" id="light0" ><div >0<p>#fbf1c7</p></div></div>
+    <div class="box" id="light1" ><div >1<p>#cc241d</p></div></div>
+    <div class="box" id="light2" ><div >2<p>#98971a</p></div></div>
+    <div class="box" id="light3" ><div >3<p>#fe8019</p></div></div>
+    <div class="box" id="light4" ><div >4<p>#458588</p></div></div>
+    <div class="box" id="light5" ><div >5<p>#b16286</p></div></div>
+    <div class="box" id="light6" ><div >6<p>#689d6a</p></div></div>
+    <div class="box" id="light7" ><div >7<p>#4a4239</p></div></div>
+  </div>
+  <div class="container">
+    <div class="box" id="light8" ><div >8<p>#c9b788</p></div></div>
+    <div class="box" id="light9" ><div >9<p>#9d0006</p></div></div>
+    <div class="box" id="light10"><div>10<p>#79740e</p></div></div>
+    <div class="box" id="light11"><div>11<p>#b57614</p></div></div>
+    <div class="box" id="light12"><div>12<p>#076678</p></div></div>
+    <div class="box" id="light13"><div>13<p>#8f3f71</p></div></div>
+    <div class="box" id="light14"><div>14<p>#427b58</p></div></div>
+    <div class="box" id="light15"><div>15<p>#282828</p></div></div>
+  </div>
+</div>
+
 </body>
 
 </html>
