@@ -1,6 +1,6 @@
 .DS_Store
 .vstags
-*.swp
+*.sw?
 *.vsix
 code/.vscode/
 node_modules/
