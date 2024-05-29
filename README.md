@@ -3,8 +3,8 @@ Filename: README.md
 Author: Olivier Sirol <czo@free.fr>
 License: GPL-2.0 (http://www.gnu.org/copyleft)
 File Created: nov. 2021
-Last Modified: Wednesday 29 May 2024, 05:14
-Edit Time: 0:44:56
+Last Modified: Wednesday 29 May 2024, 05:28
+Edit Time: 0:45:14
 $Id:$
 -->
 
@@ -83,11 +83,11 @@ On March 2022 the default value for the integrated terminal "minimum contrast ra
 
     "terminal.integrated.minimumContrastRatio": 1
 
-![screenshots](store/screenshot-term.png)
+![screenshots](store/screenshot-term.jpg)
 
 Screenshot of perl code:
 
-![screenshots](store/screenshot-perl.png)
+![screenshots](store/screenshot-perl.jpg)
 
 
 ## Contributing
