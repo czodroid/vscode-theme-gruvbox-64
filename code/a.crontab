@@ -1,17 +1,29 @@
 # Filename: a.crontab
 # Author: Olivier Sirol <czo@free.fr>
-# File Created: 23 October 2022
-# Last Modified: Sunday 23 October 2022, 12:22
+# File Created: 29 May 2024
+# Last Modified: Wednesday 29 May 2024, 04:07
 # vim: set filetype=crontab:
-# Description: crontab .crontab.user@hostname
+# Description: crontab .crontab.czo@bruichladdich
 
-#
-# minute (0-59)
-# |   hour (0-23)
-# |   |    day of the month (1-31)
-# |   |    |   month of the year (1-12)
-# |   |    |   |   day of the week (0-6 with 0=Sun)
-# |   |    |   |   |    commands
-# |   |    |   |   |    |
-1     1    15  *   *    SUJ="Crontab reminder for `id -un`@`hostname`" ; ( echo $SUJ ; date ; uname -a ; crontab -l ) | mail -s "$SUJ" root > /dev/null
+# SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+# .----------------------minute (0-59)
+# |  .-------------------hour (0-23)
+# |  |  .----------------day of the month (1-31)
+# |  |  |  .-------------month of the year (1-12)
+# |  |  |  |  .----------day of the week (0-6 with 0=Sun)
+# |  |  |  |  |
+# *  *  *  *  *          command
+
+## crontab reminder
+1    1    15   *    *    SUJ="Crontab reminder for `id -un`@`hostname`" ; ( echo $SUJ ; date ; uname -a ; crontab -l ) | mail -s "$SUJ" root > /dev/null
+
+## start moteino
+*/5  *    *    *    *    $HOME/etc/shell/moteinolog.pl > /dev/null 2>&1
+@reboot                  $HOME/etc/shell/moteinolog.pl > /dev/null 2>&1
+
+## needed for wol
+@reboot                  ethtool -s enp3s0 wol g
+
 
