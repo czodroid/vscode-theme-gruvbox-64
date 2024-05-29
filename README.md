@@ -3,7 +3,7 @@ Filename: README.md
 Author: Olivier Sirol <czo@free.fr>
 License: GPL-2.0 (http://www.gnu.org/copyleft)
 File Created: nov. 2021
-Last Modified: Friday 20 May 2022, 18:42
+Last Modified: Wednesday 29 May 2024, 05:14
 Edit Time: 0:44:56
 $Id:$
 -->
@@ -49,6 +49,8 @@ I did use vscode-theme-gruvbox as start, which is Copyright (C) 2017 [JD](https:
 
 - Bracket pair with gruvbox64 colors
 
+- Has editorStickyScroll
+
 - The $ in shell is the same color as the variable.
 
 - It colorize html entity in orange
@@ -81,7 +83,12 @@ On March 2022 the default value for the integrated terminal "minimum contrast ra
 
     "terminal.integrated.minimumContrastRatio": 1
 
-![screenshots](store/screenshots.jpg)
+![screenshots](store/screenshot-term.png)
+
+Screenshot of perl code:
+
+![screenshots](store/screenshot-perl.png)
+
 
 ## Contributing
 
