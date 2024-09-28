@@ -1,11 +1,10 @@
 <!--
-Filename: README.md
-Author: Olivier Sirol <czo@free.fr>
-License: GPL-2.0 (http://www.gnu.org/copyleft)
-File Created: nov. 2021
-Last Modified: Wednesday 29 May 2024, 05:28
-Edit Time: 0:45:14
-$Id:$
+// Filename: README.md
+// Author: Olivier Sirol <czo@free.fr>
+// License: GPL-2.0 (http://www.gnu.org/copyleft)
+// File Created: nov. 2021
+// Last Modified: Saturday 28 September 2024, 19:15
+// Edit Time: 0:45:38
 -->
 
 <h1 align="center">
@@ -18,11 +17,11 @@ $Id:$
   <br>
 </h1>
 
-<h4 align="center">A port of my Gruvbox 64 theme to VS Code editor</h4>
+<h4 align="center">A port of my Gruvbox 64 theme for vim to the VS Code editor</h4>
 
 ## About
 
-A [gruvbox](https://github.com/morhetz/gruvbox) 64 theme including syntax highlighting and workbench & terminal colors.
+It's a [gruvbox](https://github.com/morhetz/gruvbox) 64 theme including syntax highlighting and workbench & terminal colors. You can get it on [marketplace](https://marketplace.visualstudio.com/items?itemName=czo64.gruvbox-64).
 
 ## Gruvbox 64
 

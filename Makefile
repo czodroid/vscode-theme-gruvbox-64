@@ -2,12 +2,13 @@
 # Author: Olivier Sirol <czo@free.fr>
 # License: GPL-2.0 (http://www.gnu.org/copyleft)
 # File Created: févr. 2021
-# Last Modified: jeudi 05 mai 2022, 16:25
-# Edit Time: 0:18:11
+# Last Modified: Saturday 28 September 2024, 19:11
+# Edit Time: 0:18:18
 # Description:
 #
-# $Id:$
+#               Makefile for this project
 #
+# Copyright: (C) 2021-2024 Olivier Sirol <czo@free.fr>
 
 all:
 	vsce package
