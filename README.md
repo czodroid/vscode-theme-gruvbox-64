@@ -3,8 +3,8 @@
 // Author: Olivier Sirol <czo@free.fr>
 // License: GPL-2.0 (http://www.gnu.org/copyleft)
 // File Created: nov. 2021
-// Last Modified: Saturday 28 September 2024, 19:15
-// Edit Time: 0:45:38
+// Last Modified: Sunday 29 September 2024, 12:14
+// Edit Time: 0:45:43
 -->
 
 <h1 align="center">
@@ -56,7 +56,26 @@ I did use vscode-theme-gruvbox as start, which is Copyright (C) 2017 [JD](https:
 
 - It colorize perl's functions
 
-I use it in terminal and vim. Now it's for VSCode !
+I use gruvbox-64 in terminal and vim. Now it's for VSCode !
+
+## What's new
+
+* 2024-09:
+  - titleBar lighter color
+  - change color in diffEditor
+
+* 2024-05:
+  - color change in gitDecoration  editorWhitespace  editorStickyScroll and darker Selection
+
+* 2024-03:
+  - StickyScroll colors!
+
+* 2022-05:
+  - bracketpair with gruvbox64 color
+
+* 2021-12:
+  - brighter colors in menus and widgets
+  - statusBar.noFolderBackground brown like in vim
 
 ## Installation
 

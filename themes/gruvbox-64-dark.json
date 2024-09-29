@@ -1,8 +1,8 @@
 // Filename: gruvbox-64-dark.json
 // Author: Olivier Sirol <czo@free.fr>
 // File Created: oct. 2021
-// Last Modified: Saturday 28 September 2024, 19:15
-// Edit Time: 1:14:26
+// Last Modified: Sunday 29 September 2024, 12:16
+// Edit Time: 1:14:37
 // Description:
 //
 //          Gruvbox 64 dark theme
@@ -28,8 +28,12 @@
     "button.foreground": "#ebdbb2",
     "button.hoverBackground": "#45858860",
     "debugToolBar.background": "#282828",
-    "diffEditor.insertedTextBackground": "#b8bb2630",
-    "diffEditor.removedTextBackground": "#fb493430",
+    "diffEditor.insertedTextBackground": "#b8bb26a0",
+    "diffEditor.removedTextBackground": "#fb493480",
+    "diffEditor.insertedLineBackground": "#4d533850",
+    "diffEditor.removedLineBackground": "#4f2e2a80",
+    "diffEditorOverview.insertedForeground": "#4d5338",
+    "diffEditorOverview.removedForeground": "#4f2e2a",
     "dropdown.background": "#3c3836",
     "dropdown.border": "#3c3836",
     "dropdown.foreground": "#ebdbb2",
