@@ -3,8 +3,8 @@
 // Author: Olivier Sirol <czo@free.fr>
 // License: GPL-2.0 (http://www.gnu.org/copyleft)
 // File Created: nov. 2021
-// Last Modified: Sunday 29 September 2024, 12:14
-// Edit Time: 0:45:43
+// Last Modified: Sunday 29 September 2024, 16:57
+// Edit Time: 0:46:08
 -->
 
 <h1 align="center">
@@ -61,7 +61,7 @@ I use gruvbox-64 in terminal and vim. Now it's for VSCode !
 ## What's new
 
 * 2024-09:
-  - titleBar lighter color
+  - titleBar and activityBar lighter color
   - change color in diffEditor
 
 * 2024-05:
