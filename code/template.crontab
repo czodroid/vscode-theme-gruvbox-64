@@ -1,7 +1,7 @@
-# Filename: a.crontab
+# Filename: template.crontab
 # Author: Olivier Sirol <czo@free.fr>
-# File Created: 12 March 2025
-# Last Modified: Wednesday 12 March 2025, 13:12
+# File Created: 09 March 2025
+# Last Modified: Sunday 09 March 2025, 15:36
 # vim: set filetype=crontab:
 # Description: crontab .crontab.czo@bruichladdich
 
