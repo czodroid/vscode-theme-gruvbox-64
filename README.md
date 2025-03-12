@@ -3,8 +3,8 @@
 // Author: Olivier Sirol <czo@free.fr>
 // License: GPL-2.0 (http://www.gnu.org/copyleft)
 // File Created: nov. 2021
-// Last Modified: Sunday 29 September 2024, 16:57
-// Edit Time: 0:46:08
+// Last Modified: Wednesday 12 March 2025, 13:08
+// Edit Time: 0:46:26
 -->
 
 <h1 align="center">
@@ -17,7 +17,7 @@
   <br>
 </h1>
 
-<h4 align="center">A port of my Gruvbox 64 theme for vim to the VS Code editor</h4>
+<h4 align="center">A port of my Gruvbox 64 theme from vim to the VS Code editor</h4>
 
 ## About
 
@@ -42,8 +42,6 @@ It's a 16 colors palette with a modified light white (
 
 ![16colors](store/16colors.png)
 
-I did use vscode-theme-gruvbox as start, which is Copyright (C) 2017 [JD](https://github.com/jdinhify)
-
 - This theme has no bold and no italic.
 
 - Bracket pair with gruvbox64 colors
@@ -59,6 +57,10 @@ I did use vscode-theme-gruvbox as start, which is Copyright (C) 2017 [JD](https:
 I use gruvbox-64 in terminal and vim. Now it's for VSCode !
 
 ## What's new
+
+* 2025-03:
+  - color change wordHighlight FindMatchHighlight and selectionHighlight
+  - darker editorStickyScroll
 
 * 2024-09:
   - titleBar and activityBar lighter color
@@ -122,6 +124,7 @@ Please, report issues/bugs and suggestions for improvements to the issue [here](
 
 Special thank to [Pavel Pertsev](https://github.com/morhetz), the creator of [gruvbox](https://github.com/morhetz/gruvbox) original theme.
 
-And of course [JD](https://github.com/jdinhify), the creator of [vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox)
+And of course [JD](https://github.com/jdinhify), the creator of [vscode-theme-gruvbox](https://github.com/jdinhify/vscode-theme-gruvbox), from whom I did use vscode-theme-gruvbox as start.
+
 
 Thanks for help to make the Gruvbox theme better.
