@@ -1,8 +1,8 @@
 // Filename: gruvbox-64-dark.json
 // Author: Olivier Sirol <czo@free.fr>
 // File Created: oct. 2021
-// Last Modified: Wednesday 29 October 2025, 20:59
-// Edit Time: 1:15:42
+// Last Modified: Wednesday 29 October 2025, 21:50
+// Edit Time: 1:16:20
 // Description:
 //
 //          Gruvbox 64 dark theme
@@ -203,9 +203,9 @@
     "terminalCursor.foreground": "#98971a",
     "textLink.activeForeground": "#458588",
     "textLink.foreground": "#83a598",
-    "titleBar.activeBackground": "#1d2021",
+    "titleBar.activeBackground": "#21201d",
     "titleBar.activeForeground": "#ebdbb2aa",
-    "titleBar.inactiveBackground": "#1d2021",
+    "titleBar.inactiveBackground": "#21201d",
     "widget.shadow": "#1d202198"
   },
 
