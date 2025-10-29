@@ -3,8 +3,8 @@
 // Author: Olivier Sirol <czo@free.fr>
 // License: GPL-2.0 (http://www.gnu.org/copyleft)
 // File Created: nov. 2021
-// Last Modified: Wednesday 29 October 2025, 00:10
-// Edit Time: 0:46:26
+// Last Modified: Wednesday 29 October 2025, 20:59
+// Edit Time: 0:46:56
 -->
 
 <h1 align="center">
@@ -59,6 +59,7 @@ I use gruvbox-64 in terminal and vim. Now it's for VSCode !
 ## What's new
 
 * 2025-10:
+  - titleBar: use bg0\_h (#1d2021) for background and ligther foreground
   - editorStickyScroll: show brown border and lightly visible background
   - editorOverviewRuler: lightly visible brown
   - scrollbarSlider: from green to brown
