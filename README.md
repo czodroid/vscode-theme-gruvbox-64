@@ -3,7 +3,7 @@
 // Author: Olivier Sirol <czo@free.fr>
 // License: GPL-2.0 (http://www.gnu.org/copyleft)
 // File Created: nov. 2021
-// Last Modified: Wednesday 29 October 2025, 21:52
+// Last Modified: Tuesday 25 November 2025, 21:36
 // Edit Time: 0:48:50
 -->
 
@@ -57,6 +57,9 @@ It's a 16 colors palette with a modified light white (
 I use gruvbox-64 in terminal and vim. Now it's for VSCode !
 
 ## What's new
+
+* 2025-11:
+  - missing #689d6a40 panelTitle.activeBorder
 
 * 2025-10:
   - titleBar: use #21201d (a darker grey near brow) for background and a ligther foreground
