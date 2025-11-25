@@ -141,6 +141,7 @@
     "merge.incomingHeaderBackground": "#689d6a40",
     "panel.border": "#3c3836",
     "panelTitle.activeForeground": "#ebdbb2",
+    "panelTitle.activeBorder": "#689d6a40",
     "peekView.border": "#3c3836",
     "peekViewEditor.background": "#3c383650",
     "peekViewEditorGutter.background": "#3c383650",
