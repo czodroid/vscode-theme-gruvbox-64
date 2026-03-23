@@ -1,9 +1,9 @@
 {
     "name": "gruvbox-64",
     "publisher": "czo64",
-    "version": "1.0.37",
-    "displayName": "Gruvbox 64 Theme",
-    "description": "Gruvbox 64 Theme",
+    "version": "1.0.38",
+    "displayName": "Czo Gruvbox 64 Theme",
+    "description": "This is a dark gruvbox theme, with some adjustments to make it look better (for me ;-)",
     "icon": "store/icon.png",
     "author": "czo (https://github.com/czodroid)",
     "license": "MIT",
