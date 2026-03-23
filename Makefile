@@ -2,13 +2,13 @@
 # Author: Olivier Sirol <czo@free.fr>
 # License: GPL-2.0 (http://www.gnu.org/copyleft)
 # File Created: févr. 2021
-# Last Modified: Wednesday 12 March 2025, 10:59
-# Edit Time: 0:19:11
+# Last Modified: Monday 23 March 2026, 19:10
+# Edit Time: 0:19:29
 # Description:
 #
 #               Makefile for this project
 #
-# Copyright: (C) 2021-2025 Olivier Sirol <czo@free.fr>
+# Copyright: (C) 2021-2026 Olivier Sirol <czo@free.fr>
 
 all:
 	vsce package
@@ -25,6 +25,8 @@ clean:
 	rm -fr node_modules/
 	rm -f *.vsix
 	@echo "<- clean done!"
+
+fclean: clean
 
 .PHONY: all clean
 
