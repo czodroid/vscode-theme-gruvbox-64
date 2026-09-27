@@ -1,15 +1,15 @@
 // Filename: gruvbox-64-dark.json
 // Author: Olivier Sirol <czo@free.fr>
 // File Created: oct. 2021
-// Last Modified: Wednesday 29 October 2025, 21:50
-// Edit Time: 1:16:20
+// Last Modified: Sunday 27 September 2026, 20:13
+// Edit Time: 1:25:03
 // Description:
 //
 //          Gruvbox 64 dark theme
 //          Orig Copyright (C) 2017 JD in MIT License
 //          https://code.visualstudio.com/api/references/theme-color
 //
-// Copyright: (C) 2021-2025 Olivier Sirol <czo@free.fr>
+// Copyright: (C) 2021-2026 Olivier Sirol <czo@free.fr>
 
 {
   "$schema": "vscode://schemas/color-theme",
@@ -63,7 +63,7 @@
     "editorGroup.border": "#3c3836",
     "editorGroup.dropBackground": "#3c383660",
     "editorGroupHeader.noTabsBackground": "#3c3836",
-    "editorGroupHeader.tabsBackground": "#282828",
+    "editorGroupHeader.tabsBackground": "#32302f",
     "editorGroupHeader.tabsBorder": "#3c3836",
     "editorGutter.addedBackground": "#b8bb26",
     "editorGutter.background": "#28282800",
@@ -165,7 +165,7 @@
     "sideBarSectionHeader.background": "#28282800",
     "sideBarSectionHeader.foreground": "#ebdbb2",
     "sideBarTitle.foreground": "#ebdbb2",
-    "statusBar.background": "#4a4239",
+    "statusBar.background": "#32302f",
     "statusBar.border": "#3c3836",
     "statusBar.debuggingBackground": "#fe8019",
     "statusBar.debuggingBorder": "#28282800",
